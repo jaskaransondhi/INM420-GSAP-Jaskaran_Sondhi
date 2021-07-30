@@ -1,0 +1,53 @@
+/* CSS for Contact Page */
+
+h3{
+  margin-bottom: 50px;
+}
+
+.contact-container{
+  text-align: center;
+  border: 1px solid #FF4500;
+  padding: 50px 80px;
+  margin: 20px;
+}
+
+#contact-form{
+  text-align: left;
+  margin: 0 auto;
+}
+
+.contact-form-container{
+  margin: 0 auto;
+  width: 80%;
+}
+
+input, textarea{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px 2px;
+}
+
+.label{
+  font-size: 1rem;
+  color: #FF4500;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+
+.button-container{
+  text-align: center;
+}
+
+#submitBtn{
+  background-color: #FF4500;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 15px;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+}

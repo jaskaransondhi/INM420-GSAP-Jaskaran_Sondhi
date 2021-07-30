@@ -1,0 +1,115 @@
+
+/* Nav Menu Styling */
+
+.navmenu{
+	background-color: #1c1722;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.navmenu-container li{
+	color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Nav Menu Logo */
+.navmenu-logo{
+	width: 30px;
+}
+
+.navmenu-logo-container{
+	display: flex;
+	align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.navmenu-logo-container h1{
+	font-size: 1.5rem;
+	color: #FF4500;
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+/* Nav Menu Links */
+
+.navmenu-links-container{
+  list-style: none;
+  text-align: center;
+  /* width: 50%; */
+  margin: 0 auto;
+  transition: all 0.5s ease;
+}
+
+.navmenu-links-container-hidden{
+  display: none;
+}
+
+.navlink{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: center;
+  line-height: 60px;
+  width: 100%;
+  background-color: #1c1722;
+}
+
+
+.navlink:hover{
+  color: #FF4500;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease-out;
+  border-bottom: 1px solid #FF4500;
+}
+
+/* Nav Menu Hamburger */
+
+.navmenu-icon{
+  transition: all 0.3s ease-in-out;
+  color: #FF4500;
+
+}
+
+.navlink.selected{
+  color: #FF4500;
+  font-weight: 600;
+  border-bottom: 1px solid #FF4500;
+}
+
+
+/* Desktop View */
+
+@media only screen and (min-width: 640px) {
+
+  .navmenu-logo{
+    display: flex;
+    justify-content: start;
+  }
+
+  .navmenu-logo-container{
+    margin: 0;
+  }
+
+  .navmenu-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 80%;
+    flex-wrap: wrap;
+  }
+
+  .navmenu-links-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 50%;
+  }
+
+  
+  }
