@@ -111,5 +111,12 @@
     width: 50%;
   }
 
+  #submitBtn:hover{
+    background-color: transparent;
+    border: 1px solid #FF4500;
+    color: #FF4500;
+    cursor: pointer;
+  }
+
   
   }
